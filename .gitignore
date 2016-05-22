@@ -1,0 +1,102 @@
+# gitignore #
+
+# =========================
+# Folder config file
+# =========================
+Desktop.ini
+
+# =========================
+# Recycle Bin used on file shares
+# =========================
+$RECYCLE.BIN/
+
+# =========================
+# Windows Installer files
+# =========================
+*.cab
+*.msi
+*.msm
+*.msp
+
+# =========================
+# Windows shortcuts
+# =========================
+*.lnk
+
+# =========================
+# Compiled source files#
+# =========================
+*.exe
+*.class
+*.dll
+
+# =========================
+# IntelliJ files #
+# =========================
+*.iml
+*.ipr
+*.iws
+*.idea
+atlassian-ide-plugin.xml
+
+# =========================
+# Vault, Git files #
+# =========================
+*.git
+*.vlt
+
+# =========================
+# Thumbnails
+# =========================
+._*
+
+# =========================
+# Files that might appear on external disk
+# =========================
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Directories potentially created on remote AFP share
+# =========================
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# =========================
+# Miscellaneous files #
+# =========================
+source/.idea/misc.xml
+.DS_Store*
+*.DS_Store*
+.DS_Store
+*DS_Store*
+*.log
+.AppleDouble
+.LSOverride
+nb*.xml
+*.project
+target
+Thumbs.db
+ehthumbs.db
+*.settings
+*.metadata
+libs
+/libs
+/libs*
+/libs/*
+# Web project files generated in NetBeans for developing the CQ UI.
+nbproject
+src/content/conf
+src/content/nbproject
+src/content/WEB-INF
+src/content/build.xml
+.classpath
+build
+
+#Adding ignore for recommeders
+
+.recommenders/*
+
